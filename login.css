@@ -23,7 +23,6 @@ body {
 }
 
 footer {
-    border-bottom: 1px solid black;
     margin: 20px;
     margin-top: 40vh;
 }
@@ -46,4 +45,8 @@ button {
 input {
     border-radius: 10px;
     padding: 5px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
 }
