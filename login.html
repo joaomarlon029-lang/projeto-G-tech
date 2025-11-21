@@ -5,27 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre-se na G-Tech</title>
-    <link rel="stylesheet" href="../Projeto-Gtech/Styles/styles.css">
-
+    <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
-    <h2>Entrar</h2>
-    <form class="login">
-        <input type="email" name="Email" placeholder="Email" required>
-        <input type="password" name="senha" placeholder="Senha" required>
-        <a href="#">Esqueceu a senha?</a>
-        <p>Não tem conta?<a href="registro.html">Cadastre-se</a></p>
-        <label>
-            <input type="checkbox">
-            Lembrar de Mim
-        </label>
-        <button type="submit">Login</button>
-    </form>
+
+    <div class="login">
+        <h2>Entrar</h2>
+        <form>
+            <div class="container">
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <p>Não tem conta?<a href="registro.html">Cadastre-se</a></p>
+            <label>
+                <input type="checkbox">
+                Lembrar de Mim
+            </label>
+            <button type="submit">Login</button>
+        </form>
+    </div>
     <footer class="footer">
         <h2>&copy;2025 G-Tech Assistência Técnica - Todos os Direitos Reservados</h2>
         <div class="footer-bottom">
-            <p>Voltar ao Topo</p><a href="#hero"><img src="" alt=""></a>
+            <a href="index.html">
+                <p class="back-to-start">Voltar ao inicio</p>
+            </a>
+            
         </div>
     </footer>
 </body>
