@@ -5,27 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registre-se na G-Tech</title>
-    <link rel="stylesheet" href="../Projeto-Gtech/Styles/styles.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 </head>
 
 <body>
-    <h2>Entrar</h2>
-    <form class="login">
-        <input type="email" name="Email" placeholder="Email" required>
-        <input type="password" name="senha" placeholder="Senha" required>
-        <a href="#">Esqueceu a senha?</a>
-        <p>Não tem conta?<a href="registro.html">Cadastre-se</a></p>
-        <label>
-            <input type="checkbox">
-            Lembrar de Mim
-        </label>
-        <button class="btn btn-header1" type="submit">Login</button>
-    </form>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="Assets/logo.jpeg" alt=""></a>
+        </div>
+
+        <div class="nav-links">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-btn">
+            <button class="btn btn-header1" onclick="window.location.href='registro.html'">
+                Criar Conta
+            </button>
+            <button class="btn btn-header2" onclick="window.location.href='login.html'">
+                Login
+            </button>
+        </div>
+
+    </header>
+    <section class="login">
+        
+        <form class="login-form">
+            <h2>Entrar</h2>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <a href="#">Esqueceu a senha?</a>
+            <p>Não tem conta?<a href="registro.html">Cadastre-se</a></p>
+            <label class="checkbox">
+                <input type="checkbox">
+                Lembrar de Mim
+            </label>
+            <button class="btn btn-login" type="submit">Login</button>
+        </form>
+    </section>
     <footer class="footer">
-        <h2>&copy;2025 G-Tech Assistência Técnica - Todos os Direitos Reservados</h2>
+        <div class="footer-top">
+            <div class="logo2">
+                <a href="#hero"><img src="Assets/Gemini_Generated_Image_cz9d6zcz9d6zcz9d-Photoroom.png" alt=""></a>
+                <p>Soluções rápidas e confiáveis em manutenção de computadores, celulares e notebooks.</p>
+            </div>
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Garantia</a></li>
+                        <li><a href="#">Termos e condições</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                        <li><a href="#">Central de ajuda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Troca de tela</a></li>
+                        <li><a href="#">Formatação</a></li>
+                        <li><a href="#">Limpeza interna</a></li>
+                        <li><a href="#">Upgrade SSD/RAM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div class="footer-bottom">
-            <p>Voltar ao Topo</p><a href="#hero"><img src="" alt=""></a>
+            <p>&copy;2025 G-Tech Assistência Técnica - Todos os Direitos Reservados</p>
+            <div class="social-links">
+
+                <a href="https://www.instagram.com/gtech.gg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="backtop">
+                <p>Voltar ao Topo</p><a href="#hero"><img src="Assets/Vector.png" alt=""></a>
+            </div>
         </div>
     </footer>
 </body>
